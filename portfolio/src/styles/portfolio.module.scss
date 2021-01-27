@@ -1,0 +1,38 @@
+.image {
+    width: calc(100vw - (100vw - 100%));
+    height: 100vh;
+    background: url("../images/background.jpg") no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.image p {
+    color: white;
+    font-size: 5rem;
+    text-align: center;
+}
+
+.navbar {
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.navbar a {
+    font-size: 3rem;
+
+    :active {
+        color: yellow;
+    }
+}
+
+.hello {
+}
