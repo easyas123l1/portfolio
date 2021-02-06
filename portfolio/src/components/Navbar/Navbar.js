@@ -5,7 +5,20 @@ import portfolio from "../../styles/portfolio.module.scss";
 export default function Navbar() {
     return (
         <div className={portfolio.navbar}>
-            <Link to="/">Home</Link>
+            <Link
+                to="/home"
+                isActive={(match, location) => {
+                    if (!match) {
+                        if (location.pathname === "/") {
+                            return true;
+                        }
+                        return false;
+                    }
+                    return true;
+                }}
+            >
+                Home
+            </Link>
             <Link to="/aboutMe">About Me</Link>
             <Link to="/projects">Projects</Link>
         </div>
