@@ -5,7 +5,9 @@ import portfolio from "../../styles/portfolio.module.scss";
 export default function AboutMe() {
     return (
         <div className={portfolio.aboutMe}>
-            <Navbar />
+            <div className={portfolio.aboutimage}>
+                <Navbar />
+            </div>
         </div>
     );
 }
