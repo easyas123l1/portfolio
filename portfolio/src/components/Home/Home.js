@@ -5,7 +5,7 @@ import portfolio from "../../styles/portfolio.module.scss";
 export default function Home() {
     return (
         <div>
-            <div className={portfolio.image}>
+            <div className={portfolio.homeimage}>
                 <Navbar />
                 <p className={portfolio.hello}>
                     Hello World, I'm Andrew. A Full-Stack Web Developer.{" "}

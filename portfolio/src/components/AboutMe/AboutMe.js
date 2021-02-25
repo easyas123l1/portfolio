@@ -7,6 +7,7 @@ export default function AboutMe() {
         <div className={portfolio.aboutMe}>
             <div className={portfolio.aboutimage}>
                 <Navbar />
+                <div className={portfolio.aboutpage}></div>
             </div>
         </div>
     );
