@@ -50,13 +50,6 @@ export default function AboutMe() {
                             </svg>
                             Github
                         </a>
-                    </div>
-                    <h1 className={portfolio.techstack}>
-                        JavaScript | React/Redux | AngularJS | TypeScript |
-                        PostgreSQL | MySQL | RESTful API | Python | HTML | CSS |
-                        Git
-                    </h1>
-                    <div className={portfolio.techstackDiv}>
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -90,6 +83,11 @@ export default function AboutMe() {
                             E-Mail
                         </a>
                     </div>
+                    <h1 className={portfolio.techstack}>
+                        JavaScript | React/Redux | AngularJS | TypeScript |
+                        PostgreSQL | MySQL | RESTful API | Python | HTML | CSS |
+                        Git
+                    </h1>
                 </div>
             </div>
         </div>
