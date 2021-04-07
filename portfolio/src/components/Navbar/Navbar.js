@@ -17,7 +17,7 @@ export default function Navbar() {
                     return true;
                 }}
             >
-                Home
+                Andrew Wilson
             </Link>
             <Link to="/aboutMe">About Me</Link>
             <Link to="/projects">Projects</Link>
