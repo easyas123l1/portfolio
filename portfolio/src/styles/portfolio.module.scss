@@ -46,20 +46,57 @@
 .navbar a {
     font-size: 3rem;
     @media screen and (max-width: 1000px) {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
     @media screen and (max-width: 500px) {
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
     @media screen and (max-width: 400px) {
         font-size: 1rem;
     }
 }
 
+.techstack {
+    margin: 3% 0%;
+    color: white;
+    font-weight: bold;
+    font-size: 2.3rem;
+    text-align: center;
+    @media screen and (max-width: 1000px) {
+        font-size: 1.5rem;
+    }
+    @media screen and (max-width: 500px) {
+        font-size: 1rem;
+    }
+    @media screen and (max-width: 400px) {
+        font-size: 1rem;
+    }
+}
+
+.techstackDiv {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 3% 0%;
+}
+
 .aboutpage {
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.6);
     width: 100%;
     height: 100%;
+
+    a {
+        font-size: 2.5rem;
+        @media screen and (max-width: 1000px) {
+            font-size: 2rem;
+        }
+        @media screen and (max-width: 500px) {
+            font-size: 1.5rem;
+        }
+        @media screen and (max-width: 400px) {
+            font-size: 1rem;
+        }
+    }
 }
 
 .hello {
