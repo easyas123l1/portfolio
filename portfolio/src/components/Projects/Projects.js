@@ -6,6 +6,9 @@ export default function Projects() {
     return (
         <div className={portfolio.aboutMe}>
             <Navbar />
+            <div>
+                <p>project 1</p>
+            </div>
         </div>
     );
 }
