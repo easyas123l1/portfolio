@@ -109,3 +109,35 @@
     background-color: black;
     height: 100vh;
 }
+
+.projectsDiv {
+    margin-top: 4%;
+    width: 90%;
+    margin-left: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.project {
+    min-width: 40%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 1%;
+}
+
+.wordSearch {
+    background: url("../images/wordSearchFrontPage.jpg") no-repeat;
+    min-height: 30vh;
+    background-position: center;
+    background-size: 100% 100%;
+    font-size: 64px;
+    text-align: center;
+}
+
+.githubLinks {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
