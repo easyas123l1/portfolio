@@ -6,28 +6,111 @@ export default function Projects() {
     return (
         <div className={portfolio.aboutMe}>
             <Navbar />
-            <div>
-                <a
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href="https://pvpwordsearchreact-git-master-andrewwilson90.vercel.app/"
-                >
-                    Word Search with PvP
-                </a>
-                <a
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href="https://github.com/easyas123l1/pvpwordsearchreact"
-                >
-                    front end code
-                </a>
-                <a
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href="https://github.com/easyas123l1/pvpwordsearch"
-                >
-                    back end code
-                </a>
+            <div className={portfolio.projectsDiv}>
+                <div className={portfolio.project}>
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://pvpwordsearchreact-git-master-andrewwilson90.vercel.app/"
+                        className={portfolio.wordSearch}
+                    >
+                        Word Search with PvP
+                    </a>
+                    <div className={portfolio.githubLinks}>
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://github.com/easyas123l1/pvpwordsearchreact"
+                        >
+                            View Front Code
+                        </a>
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://github.com/easyas123l1/pvpwordsearch"
+                        >
+                            View Back Code
+                        </a>
+                    </div>
+                </div>
+                <div className={portfolio.project}>
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://pvpwordsearchreact-git-master-andrewwilson90.vercel.app/"
+                        className={portfolio.wordSearch}
+                    >
+                        Word Search with PvP
+                    </a>
+                    <div className={portfolio.githubLinks}>
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://github.com/easyas123l1/pvpwordsearchreact"
+                        >
+                            View Front Code
+                        </a>
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://github.com/easyas123l1/pvpwordsearch"
+                        >
+                            View Back Code
+                        </a>
+                    </div>
+                </div>
+                <div className={portfolio.project}>
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://pvpwordsearchreact-git-master-andrewwilson90.vercel.app/"
+                        className={portfolio.wordSearch}
+                    >
+                        Word Search with PvP
+                    </a>
+                    <div className={portfolio.githubLinks}>
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://github.com/easyas123l1/pvpwordsearchreact"
+                        >
+                            View Front Code
+                        </a>
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://github.com/easyas123l1/pvpwordsearch"
+                        >
+                            View Back Code
+                        </a>
+                    </div>
+                </div>
+                <div className={portfolio.project}>
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://pvpwordsearchreact-git-master-andrewwilson90.vercel.app/"
+                        className={portfolio.wordSearch}
+                    >
+                        Word Search with PvP
+                    </a>
+                    <div className={portfolio.githubLinks}>
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://github.com/easyas123l1/pvpwordsearchreact"
+                        >
+                            View Front Code
+                        </a>
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://github.com/easyas123l1/pvpwordsearch"
+                        >
+                            View Back Code
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
     );
