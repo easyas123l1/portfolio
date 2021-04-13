@@ -37,23 +37,23 @@ export default function Projects() {
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://pvpwordsearchreact-git-master-andrewwilson90.vercel.app/"
-                        className={portfolio.wordSearch}
+                        href="https://tagger-lab.netlify.app/#"
+                        className={portfolio.tagger}
                     >
-                        Word Search with PvP
+                        Tagger
                     </a>
                     <div className={portfolio.githubLinks}>
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="https://github.com/easyas123l1/pvpwordsearchreact"
+                            href="https://github.com/Lambda-School-Labs/tagger-fe/tree/EnzymeTessting"
                         >
                             View Front Code
                         </a>
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="https://github.com/easyas123l1/pvpwordsearch"
+                            href="https://github.com/Lambda-School-Labs/tagger-be/tree/Mocha-Test"
                         >
                             View Back Code
                         </a>
