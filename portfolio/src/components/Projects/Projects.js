@@ -63,25 +63,18 @@ export default function Projects() {
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://pvpwordsearchreact-git-master-andrewwilson90.vercel.app/"
-                        className={portfolio.wordSearch}
+                        href="https://game-of-life-fe.vercel.app/"
+                        className={portfolio.gameofLife}
                     >
-                        Word Search with PvP
+                        Conways Game of Life
                     </a>
                     <div className={portfolio.githubLinks}>
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="https://github.com/easyas123l1/pvpwordsearchreact"
+                            href="https://github.com/easyas123l1/Game-Of-Life-FE"
                         >
-                            View Front Code
-                        </a>
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://github.com/easyas123l1/pvpwordsearch"
-                        >
-                            View Back Code
+                            View Code
                         </a>
                     </div>
                 </div>
