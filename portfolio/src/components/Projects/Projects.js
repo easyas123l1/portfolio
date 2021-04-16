@@ -34,6 +34,15 @@ export default function Projects() {
                     </div>
                 </div>
                 <div className={portfolio.project}>
+                    <h1>Front End Technologies</h1>
+                    <p>
+                        React -- JavaScript -- Socket.io -- Axios -- SCSS --
+                        Jest
+                    </p>
+                    <h1>Back End Technologies</h1>
+                    <p>Express -- Knex -- PostgreSQL -- Socket.io -- Jest</p>
+                </div>
+                <div className={portfolio.project}>
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
@@ -60,6 +69,15 @@ export default function Projects() {
                     </div>
                 </div>
                 <div className={portfolio.project}>
+                    <h1>Front End Technologies</h1>
+                    <p>React -- Redux -- SCSS -- Mocha -- Simple Bar</p>
+                    <h1>Back End Technologies</h1>
+                    <p>
+                        Node -- Express -- Knex -- imap-simple -- mailparser --
+                        nodemailer -- chai
+                    </p>
+                </div>
+                <div className={portfolio.project}>
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
@@ -79,30 +97,8 @@ export default function Projects() {
                     </div>
                 </div>
                 <div className={portfolio.project}>
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="https://pvpwordsearchreact-git-master-andrewwilson90.vercel.app/"
-                        className={portfolio.wordSearch}
-                    >
-                        Word Search with PvP
-                    </a>
-                    <div className={portfolio.githubLinks}>
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://github.com/easyas123l1/pvpwordsearchreact"
-                        >
-                            View Front Code
-                        </a>
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://github.com/easyas123l1/pvpwordsearch"
-                        >
-                            View Back Code
-                        </a>
-                    </div>
+                    <h1>Front End Technologies</h1>
+                    <p>Angular -- TypeScript -- jasmine</p>
                 </div>
             </div>
         </div>
