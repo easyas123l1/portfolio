@@ -11,7 +11,7 @@ export default function Projects() {
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://pvpwordsearchreact-git-master-andrewwilson90.vercel.app/"
+                        href="https://pvpwordsearchreact.vercel.app/"
                         className={portfolio.wordSearch}
                     >
                         Word Search with PvP
