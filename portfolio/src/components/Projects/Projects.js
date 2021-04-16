@@ -84,7 +84,7 @@ export default function Projects() {
                         href="https://game-of-life-fe.vercel.app/"
                         className={portfolio.gameofLife}
                     >
-                        Conways Game of Life
+                        Conway's Game of Life
                     </a>
                     <div className={portfolio.githubLinks}>
                         <a
