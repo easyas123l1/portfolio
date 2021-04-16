@@ -107,7 +107,7 @@
 
 .aboutMe {
     background-color: black;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .projectsDiv {
@@ -117,6 +117,7 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    background-color: black;
 }
 
 .project {
