@@ -11,7 +11,8 @@ export default function AboutMe() {
                     <h1 className={portfolio.techstack}>
                         I'm a Software Developer with experience on both ends of
                         the stack, focused on providing meaningful, genuine
-                        contributions to colleagues, stakeholders, and end-users
+                        contributions to colleagues, stakeholders, and
+                        end-users.
                     </h1>
 
                     <h1 className={portfolio.techstack}>
