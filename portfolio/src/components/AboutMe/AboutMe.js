@@ -54,7 +54,7 @@ export default function AboutMe() {
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="https://1drv.ms/w/s!AkIXS69kJSXXlnVMgPTUHPOYxY6i?e=hfPwP6"
+                            href="https://1drv.ms/w/s!AkIXS69kJSXXmX8WPmj9oEP_rgBe?e=4lntSF"
                         >
                             <svg
                                 width="48"
