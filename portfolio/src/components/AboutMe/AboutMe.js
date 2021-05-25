@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../Navbar/Navbar";
 import portfolio from "../../styles/portfolio.module.scss";
+import Pdf from "../../assets/Resume-Andrew.pdf";
 
 export default function AboutMe() {
     return (
@@ -51,11 +52,7 @@ export default function AboutMe() {
                             </svg>
                             Github
                         </a>
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://1drv.ms/w/s!AkIXS69kJSXXmX8WPmj9oEP_rgBe?e=4lntSF"
-                        >
+                        <a target="_blank" rel="noopener noreferrer" href={Pdf}>
                             <svg
                                 width="48"
                                 height="48"
